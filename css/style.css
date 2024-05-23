@@ -1,0 +1,174 @@
+html{box-sizing: border-box;}
+*,*::after,*::before{
+  box-sizing: inherit;
+}
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  background-color: #4d26e6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.wrapper{
+  background-color: #fff;
+  width: 945px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pictures_part{
+  position: relative;
+  width: 440px;
+  min-height: 650px;
+  background-color: #e26796;
+  box-shadow: 3px 4px 20px rgba(0, 0, 0, 0.6);
+  margin: -40px 0;
+}
+.pictures_part .logo{
+  width: 40px;
+  padding: 23px 0 0 21px;
+}
+.spans span{
+  width: 10px;
+  position: absolute;
+  height: 10px;
+  background-color: #fff;
+  border-radius: 50%;
+  bottom: 40px;
+  left: 50%;
+}
+.spans span::after,.spans span::before{
+  content: '';
+  width: 10px;height: 10px;
+  border-radius: 50%;
+  background-color: #aaaaab;
+   position: relative;
+}
+.spans span::before{
+  position: absolute;
+  left: -20px;
+}
+.spans span::after{
+  position: absolute;
+  right: -20px;
+}
+.pictures_part_size{
+  font-size: 20rem;
+  margin: 0;
+  text-align: center;
+  color: #e987ab;
+}
+.footwear{
+  width: 450px;
+  position: absolute;
+  top: 180px;
+  right: 80px;
+}
+.plus{
+  color: #fff;
+  font-size: 1.3rem;
+  width: 25px;height: 25px;
+  border-radius: 50%;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4d26e6;
+  position: absolute;
+  transition: .4s ease background-color;
+}
+.plus:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.plus1{
+  top: 260px;left: 25px;
+}
+.plus2{
+  left: 120px;
+  top: 400px;
+}
+.plus3{
+  right: 142px;
+  top: 430px;
+}
+
+.title_part{
+  width: 505px;
+  padding: 65px 45px 60px 40px;
+}
+.nike_title{
+  margin: 0;
+}
+.brend_money{
+  margin: 20px 0 40px ;
+}
+.brend_money span{
+  color: #aaa;
+  font-size: 0.6rem;
+  margin-left: 15px;
+  margin-bottom: 2px;
+}
+.sizes{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 44px;
+  margin-top: 55px;
+
+}
+.comfortable{
+  margin: 0;
+}
+.size_names{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.size_names p{
+  border: 1px solid transparent;
+  padding: 3px;
+  border-radius: 50%;
+  transition: 0.4s ease all;
+}
+.size_names p:hover{
+  border:  1px solid #e26796;
+}
+.sizes div p{
+  margin: 0;
+  color: #aaaaab;
+}
+
+.amount{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.amount p{
+  text-transform: capitalize;
+  color: #aaaaab;
+  margin-right: 50px;
+}
+.brend_soni{
+  margin: 0 10px;
+}
+button{
+  padding: 22px 100px;
+  background-color: #e74c3c;
+  border-radius: 5px;
+  margin-top: 50px;
+  border: none;
+  font-size: 1.3rem;
+  color: #fff;
+  transition: .3s ease all;
+  box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.5);
+}
+button:hover{
+  transform: translateY(-6px);
+}
